@@ -1,0 +1,147 @@
+.test {
+   display: flex;
+}
+
+.test div {
+    border: 1px solid black;
+    width: 50px;
+}
+
+html {
+    background: #dedede;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 768px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.introduction {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.attraction-feature {
+    background:#81B3D2;
+}
+.feature-1 {
+    background: #dedede;
+}
+.menu {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    font-weight: bold;
+}
+.introduction:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+}
+.introduction .background {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.introduction .img-text {
+    position: relative;
+    z-index: 1;
+    margin: 80px;
+}
+.feature-cards {
+    display: flex;
+    flex-flow: row wrap;
+}
+.feature-cards .feature {
+    flex: 1 1 33.33%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.feature-cards .attraction-feature {
+    background-color: #81b3d2;
+}
+.feature-cards .imaged-feature {
+    flex: 2 2 66.67%;
+    padding: 0;
+}
+.feature-cards .imaged-feature img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-position: 50% 50%;
+    object-fit: none;
+}
+.feature-1 {
+    flex: 1 1 33.33%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+}
+/*.hotel-reserve form {*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+/*}*/
+/*.form {*/
+    /*display: block;*/
+    /*margin-top: 0em;*/
+    /*width: 300px;*/
+
+/*.form-row {*/
+    /*flex: 1 1 33.33%;*/
+    /*padding: 50px;*/
+    /*box-sizing: border-box;*/
+    /*text-align: center;*/
+    /*display: block;*/
+    /*display: flex;*/
+    /*flex-wrap: wrap;*/
+    /*justify-content: space-between;*/
+/*}*/
+.main-footer {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    font-weight: bold;
+}
+.main-footer .column {
+    display: flex;
+    align-items: center;
+}
+.hotel-reserve {
+    display: block;
+    width: auto;
+    text-align: center;
+}
+.page-footer {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    font-weight: bold;
+}
